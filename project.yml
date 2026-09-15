@@ -1,0 +1,20 @@
+# project.yml — dashboard manifest (auto-read by ~/dev/dashboard)
+name: ATLA
+kind: game
+status: active
+description: Avatar-inspired bending combat demo — UE 5.8 C++ + Gameplay Ability System. Water economy (draw/spend), five techniques (whip flurry, ice spears, ice wall, octopus form, dodge roll), upper-body animation layering, Water Tribe arena. Focus — movement, combat (offence/defence), authentic bending styles.
+repo: https://github.com/ChristianVerghis/ATLA
+links:
+  - { label: "GitHub", href: "https://github.com/ChristianVerghis/ATLA", primary: true }
+  - { label: "Goals", path: "GOALS.md" }
+  - { label: "Build log", path: "build_log.md" }
+  - { label: "Element roadmap", path: "Design/ELEMENTS.md" }
+  - { label: "Waterbending reference", path: "Design/waterbending-current.md" }
+actions:
+  # UE install path is machine-specific (default Epic Games Launcher location on macOS); project path is relative to this repo.
+  build: '"/Users/Shared/Epic Games/UE_5.8/Engine/Build/BatchFiles/Mac/Build.sh" ATLAEditor Mac Development -Project="$PWD/ATLA.uproject" -WaitMutex'
+  open-editor: open ./ATLA.uproject
+tags: [game, unreal, ue5, gas, cpp, avatar, bending]
+showcase:
+  kind: markdown-latest
+  dir: Design

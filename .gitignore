@@ -1,0 +1,55 @@
+# Unreal Engine generated / local
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# IDE / OS
+*.xcworkspace
+.vscode/
+.idea/
+.DS_Store
+
+# Fab pack content — re-add from the Fab library (Window -> Fab), never commit
+Content/Vefects/
+Content/NiagaraExamples/
+Content/MC_Sample/
+Content/MCO_Mocap_Basics/
+Content/M5VFXVOL2/
+Content/Fire_EXP_Vol01_Free/
+Content/Sparks_Embers/
+Content/Stylish_Fire_VFX/
+Content/Fab/
+Source/UE4_MocapOnline_Tech_Notes.txt
+# MoCap Online "MCO_Mocap_Basics" source-file half (FBX clips, Maya/MotionBuilder
+# templates, SK_Mannequin pose files, store thumbnail) — same pack, same rule
+Source/FBX/
+Source/Maya/
+Source/Motionbuilder/
+Source/SKMannequin_A_Pose/
+Source/SKMannequin_T_Pose/
+Source/SK_Mannequin_A_Pose_README.txt
+Source/SK_Mannequin_T_Pose_README.txt
+MCO_Mocap_Basics.png
+Content/Characters/UEFN_Mannequin/
+
+# Fab pack content (Paragon hero packs — 2.7GB each; re-add from Fab library)
+Content/ParagonGideon/
+Content/ParagonAurora/
+
+# Mixamo pipeline: raw FBX downloads + derived import/retarget output.
+# Regenerate with Tools/import_mixamo.py then Tools/build_mixamo_retarget.py
+# (re-download the clips from mixamo.com; list in Design/anim-windows.md).
+Import/Mixamo/
+Content/Anims/Mixamo/
+Content/Anims/Mixamo_Src/
+
+# GASP (Game Animation Sample) blueprints — copied from the local sample
+# project at ~/dev/_samples/GameAnimationSample/Content/Blueprints.
+# Epic sample content, same rule as the other packs: never commit, re-copy.
+Content/Blueprints/
+Content/Anims/GASP/
+
+# Python bytecode from Tools/
+__pycache__/
