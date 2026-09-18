@@ -1,8 +1,10 @@
-# ATLA
+# Fourfold
 
-**An Avatar-style bending combat demo in Unreal Engine 5.8: four elements built on the Gameplay Ability System in C++, themed habitats, an AI sparring duel, and a Python toolchain that drives the editor remotely for testing, mocap import, and capture.**
+**A four-element bending combat demo in Unreal Engine 5.8: four elements built on the Gameplay Ability System in C++, themed habitats, an AI sparring duel, and a Python toolchain that drives the editor remotely for testing, mocap import, and capture.**
 
 ## What it is
+
+Fourfold is the game's name; the Unreal module, classes and project file keep their original internal prefix `ATLA`, which predates the name.
 
 A third-person arena game where the player bends one of four elements, each with its own resource model and a ladder of techniques from a spammable basic attack up to a signature form:
 
